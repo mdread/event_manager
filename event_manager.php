@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Event Manager
- * Plugin URI: http://caoticode.net
+ * Plugin URI: https://github.com/mdread/event_manager
  * Description: Manage event-type posts and show them in a calendar.
  * Version: 1.0.0
  * Author: Daniel Camarda
- * Author URI: http://caoticode.net
+ * Author URI: https://github.com/mdread
  * License: MIT
  */
 
@@ -168,10 +168,5 @@ add_action( 'admin_print_styles-post-new.php', 'events_styles', 1000 );
 
 add_action( 'admin_print_scripts-post.php', 'events_scripts', 1000 );
 add_action( 'admin_print_scripts-post-new.php', 'events_scripts', 1000 );
-
-/*
-CALENDAR SHORTCODE
-*/
-
 
 ?>
